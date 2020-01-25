@@ -9,7 +9,7 @@
 //         Mark Schang
 //         Donovan Porter
 
-package org.hotteam67;
+package org.hotutilites.hotcontroller;
 
 import java.lang.reflect.Method;
 
