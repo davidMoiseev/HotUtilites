@@ -9,5 +9,5 @@ public interface IHotSensor<RS, T>
 
     public void zeroSensor();
 
-    public void setSensorValue(T vaule);
+    public void setSensorValue(T value);
 }
