@@ -1,6 +1,6 @@
 package org.hotutilites.hotInterfaces;
 
-public interface IHotSensedActuator extends IHotSensor, IHotUnsensedActuator
+public interface IHotSensedActuator<RS, RC ,T> extends IHotSensor<RS, T>, IHotUnsensedActuator <RS, RC>
 {
     
 }

@@ -1,8 +1,6 @@
 package org.hotutilites.hotInterfaces;
 
-import frc.robot.RobotCommandProvider;
-
-public interface IHotUnsensedActuator
+public interface IHotUnsensedActuator <RS, RC>
 {
-   public void preformAction(RobotCommandProvider commander, IRobotState robotState);
+   public void performAction(RC commander, RS robotState);
 }
